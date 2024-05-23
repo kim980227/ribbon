@@ -1,0 +1,9 @@
+# yaml??. 
+server:
+  port: 8084
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: '.jsp'

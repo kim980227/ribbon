@@ -1,0 +1,23 @@
+# ????.........................................
+# properties ??
+# 1. ?? ????
+# 2. View ???? ??. 
+# 3. ?? ??. 
+#server.port = 8081 
+#spring.mvc.view.prefix = /WEB-INF/Views/
+#spring.mvc.view.suffix = '.jsp'
+
+
+# yaml??. 
+server:
+  port: 8081
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: '.jsp'
+
+tiger:
+  ribbon:
+    listOfServers: localhost:8082
